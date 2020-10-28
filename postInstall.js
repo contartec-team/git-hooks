@@ -1,9 +1,7 @@
-// post-install.js
-
 /**
  * Script to run after npm install
  *
- * Copy selected files to user's directory
+ * Copy hooks to `.git/hooks`
 */
 'use strict'
 
@@ -16,5 +14,4 @@ const files = ['hooks/*']
 
 const userPath = path.join(HOME_FOLDER, '.git', 'hooks')
 
-// Moving files to user's local directory
 gentlyCopy(files, userPath)
