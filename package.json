@@ -5,7 +5,7 @@
   "author": "contartec",
   "license": "MIT",
   "scripts": {
-    "postinstall": "node postInstall.js"
+    "postinstall": "npm install ; node postInstall.js"
   },
   "dependencies": {
     "gently-copy": "^3.2.0"
