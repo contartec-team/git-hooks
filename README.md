@@ -2,8 +2,8 @@ Git hooks
 
 ## Install
 
-`npm install @contartec-team/git-hooks`
+`npm install @kajoo-team/git-hooks`
 
 ## Using
 
-`git config core.hooksPath node_modules/@contartec-team/git-hooks/hooks`
+`git config core.hooksPath node_modules/@kajoo-team/git-hooks/hooks`

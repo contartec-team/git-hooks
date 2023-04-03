@@ -1,8 +1,8 @@
 {
-  "name": "@contartec-team/git-hooks",
+  "name": "@kajoo-team/git-hooks",
   "version": "0.1.1",
   "description": "Git hooks to use",
-  "author": "contartec",
+  "author": "kajoo",
   "license": "MIT",
   "scripts": {
     "postinstall": "node postInstall.js"
